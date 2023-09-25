@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/main.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body onload="getPageContent('dashboard')">
+    <main class="select-none">
+      <section class="glass">
+        <div class="dashboard">
+          <div class="logo">
+            <a href="index.html"><img src="./logosa.svg" alt="" /></a>
+          </div>
+          <nav class="links">
+            <a href="#" onclick="getPageContent('dashboard')"
+              ><i class="fi fi-br-layout-fluid"></i
+            ></a>
+            <a onclick="getPageContent('trend')" href="#"
+              ><i class="fi fi-br-signal-alt-2"></i
+            ></a>
+            <a onclick="getPageContent('power')" href="#"
+              ><img src="./bolt-auto.svg" style="width: 28px" alt=""
+            /></a>
+            <a onclick="getPageContent('chat')" href="#"
+              ><i class="fi fi-br-comment"></i
+            ></a>
+            <a onclick="getPageContent('profile')" href="#"
+              ><i class="fi fi-br-mode-portrait"></i
+            ></a>
+          </nav>
+          <div></div>
+        </div>
+        <div class="games">
+          <div id="content"></div>
+        </div>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+  <style></style>
+</html>

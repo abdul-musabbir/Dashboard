@@ -1,0 +1,17 @@
+<nav class="links">
+  <a href="#" onclick="getPageContent('dashboard')" >
+    <i class="fi fi-br-layout-fluid"></i>
+  </a>
+  <a onclick="getPageContent('trend')" href="#" >
+    <i class="fi fi-br-signal-alt-2"></i>
+  </a>
+  <a onclick="getPageContent('power')" href="#" >
+    <img src="./bolt-auto.svg" style="width: 28px" alt="" />
+  </a>
+  <a onclick="getPageContent('chat')" href="#" >
+    <i class="fi fi-br-comment"></i>
+  </a>
+  <a onclick="getPageContent('profile')" href="#" >
+    <i class="fi fi-br-mode-portrait"></i>
+  </a>
+</nav>

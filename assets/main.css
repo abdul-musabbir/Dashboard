@@ -1,0 +1,137 @@
+@import "./base.css";
+@import url("https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css");
+* {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: none;
+  outline: none;
+}
+body {
+  color: #fff;
+}
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-image: url(/3CCC31A9-2255-4E4A-BC83-92BC1459AFF0.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass {
+  min-height: 90vh;
+  width: 90%;
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+  padding: 3px;
+  display: flex;
+  border: 5px solid #3a3a3a;
+}
+.dashboard {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(360deg, #21212b, #3b3d4c);
+  border-radius: 2rem;
+}
+.games {
+  flex: 3;
+}
+.games {
+  height: 90vh;
+  margin: 0 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  border-radius: 2rem;
+  background: linear-gradient(360deg, #21212b, #3b3d4c);
+  padding: 2rem;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* a link */
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 22px;
+}
+.links a > i {
+  color: #fff;
+  transition: all 0.4s;
+}
+img {
+  width: 2rem;
+}
+/* logo size */
+.logo a img {
+  width: 3rem;
+}
+/* js layout css */
+.wrapper {
+  width: 100%;
+  height: 78vh;
+  display: flex;
+}
+/* total box container */
+.total-box-container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.total-box {
+  width: 350px;
+  height: 200px;
+  background: linear-gradient(-20deg, #21212b, #3b3d4c);
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgba(26, 26, 26, 0.5);
+}
+.wrapper-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container {
+  width: 100%;
+  height: 235px;
+  border-radius: 15px;
+  background: linear-gradient(-20deg, #21212b, #3b3d4c);
+  box-shadow: 5px 5px 20px rgba(26, 26, 26, 0.5);
+}
+
+/* ccccccc */
+.right-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0 0 1rem;
+  width: 100%;
+  height: 78vh;
+}
+.right-box {
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(-20deg, #22222a, #3b3d4c);
+  box-shadow: 0 0px 32px rgba(26, 26, 26, 1);
+  border-radius: 15px;
+}
+
+.links > a:hover > i {
+  color: #ccef3a;
+}
+.links a:focus > i {
+  color: #54efa5;
+  justify-content: space-between;
+}
